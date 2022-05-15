@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="group_purchase_user" model="res.groups">
+        <field name="name">Purchase Front User</field>
+        <field name="comment">the user will have access to initiate purchase order.</field>
+    </record>
+
+    <record id="group_purchase_manager" model="res.groups">
+        <field name="name">Purchase Head Office User</field>
+        <field name="comment">the user will have access to manage purchase order.</field>
+    </record>
+</odoo>
